@@ -1,0 +1,101 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap');
+
+
+#boxTitle{
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: 'Cherry Bomb One', cursive;
+    
+}
+#boxGame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lexend', sans-serif;
+
+}
+#Amarelo{
+    background-color: #ffd700;
+    width: 150px;
+    height: 150px;
+    border-end-start-radius: 75px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lexend', sans-serif;
+    font-size: 22px;
+
+}
+#Azul{
+    background-color: #87cefa;
+    width: 150px;
+    height: 150px;
+    border-end-end-radius: 75px;
+    color:rgb(255, 252, 252);
+    font-family: 'Lexend', sans-serif;
+    font-size: 22px;
+
+}
+
+#verde{
+    background-color: #d9edb4;
+    width: 150px;
+    height: 150px;
+    border: 75px;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+#vermelho{
+    background-color: #f08080;
+    color: rgb(255, 255, 255);
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 75px;
+    font-size: 22px;
+}
+#color{
+    text-align: center;
+}
+body{
+
+background-color: rgb(253, 194, 194);
+}
+button {
+    background: none;
+    border: 0;
+    position: relative;
+    font-weight: bold;
+    transition: all 500ms ease-in-out;
+    
+}
+
+button:after {
+    content: "";
+
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #f23211;
+
+    transition: inherit;
+
+    position: absolute;
+    top: -50%;  
+    left: -10px;
+
+    opacity: 0.3;
+    z-index: -1;
+}
+button:hover:after{
+    width: calc(100% + 20px);
+    border-radius: 20px;
+    opacity: 0.6;
+}
+
+.boto{
+     margin-left: 1%;
+}
